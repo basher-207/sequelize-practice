@@ -1,0 +1,26 @@
+{
+  "name": "task-11-database",
+  "version": "1.0.0",
+  "description": "task-11-database",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+ 
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+   "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "sequelize": "^6.32.1",
+    "sequelize-test-helpers": "^1.4.3",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1",
+    "jest-mock-req-res": "^1.0.2",
+    "sequelize-mock": "^0.10.2",
+    "supertest": "^6.3.3"
+  }
+}
