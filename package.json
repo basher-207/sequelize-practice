@@ -4,15 +4,18 @@
   "description": "task-11-database",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "start": "node server.js",
+    "test": "node_modules/.bin/jest"
   },
- 
   "keywords": [],
   "author": "",
   "license": "ISC",
-   "dependencies": {
+  "dependencies": {
     "body-parser": "^1.20.2",
     "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.2",
     "sequelize": "^6.32.1",
     "sequelize-test-helpers": "^1.4.3",
     "uuid": "^9.0.0"
